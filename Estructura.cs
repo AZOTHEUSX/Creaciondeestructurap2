@@ -14,6 +14,10 @@ static public abstract class Miembrodelacomunidad
 }
 static public virtual class Empleado: Miembrodelacomunidad
 {
+    static Empleado
+    {
+
+    }
     static override void get()
     {
         base.get();
@@ -26,6 +30,10 @@ static public virtual class Empleado: Miembrodelacomunidad
 
 static public virtual class Estudiante: Miembrodelacomunidad
 {
+    static Estudiante
+    {
+
+    }
     static override void get()
     {
         base.get();
@@ -37,6 +45,10 @@ static public virtual class Estudiante: Miembrodelacomunidad
 }
 static public virtual class ExAlumno: Miembrodelacomunidad
 {
+    static ExAlumno
+    {
+
+    }
     static override void get()
     {
         base.get();
@@ -48,6 +60,10 @@ static public virtual class ExAlumno: Miembrodelacomunidad
 }
 static public virtual class Docente: Empleado
 {
+    static Docente
+    {
+
+    }
     static override void get()
     {
         base.get();
@@ -59,6 +75,10 @@ static public virtual class Docente: Empleado
 }
 static public virtual class Administrativo: Empleado
 {
+    static Administrativo
+    {
+
+    }
     static override void get()
     {
         base.get();
@@ -70,6 +90,10 @@ static public virtual class Administrativo: Empleado
 }
 static public virtual class Administrador: Docente
 {
+    static Administrador
+    {
+
+    }
     static override void get()
     {
         base.get();
@@ -81,6 +105,10 @@ static public virtual class Administrador: Docente
 }
 static public virtual class Maestro: Docente
 {
+    static Maestro
+    {
+        
+    }
     static override void get()
     {
         base.get();
